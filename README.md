@@ -1,5 +1,14 @@
 # WP-Directorio-de-Negocios-con-filtro-AJAX
-Esta es una implementación sencilla, para listar y filtrar una lista de negocios en una página WordPress, los cuales tendrán la característica de que algunos por ser destacados tendrán prioridad al aparecer y más campos a desplegar. Con un filtro que utiliza AJAX.
+
+El cliente solicitó:
+
+-Para su sitio ya existente en WordPress, poder agregar un tipo de contenido (negocios), los cuales se podrían filtrar por localidad y tipo de negocio.
+
+-Para agregar y editar esto, debía usarse la misma interfaz de WordPress
+
+-En el editor, habrá una opción para *destacar* el negocio, si está opción está seleccionada, debían mostrarse otros datos para agregar que solo se mostrarían en estos negocios destacados.
+
+-Además, los negocios que fueran destacados, debían aparecer siempre de primero al mostrar todos los negocios o al filtrar en la página donde se mostrarían
 
 #### Recordar que, los archivos en la parte principal (functions.php, new-template.php, etc) debería estar dentro de wp-content, en la carpeta themes, en la carpeta de su tema hijo.
 
